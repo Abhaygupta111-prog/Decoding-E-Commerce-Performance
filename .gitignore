@@ -1,0 +1,19 @@
+# Environment / credentials
+.env
+*.env
+
+# Data
+data/raw/*.csv
+data/cleaned/*.csv
+data/*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# OS
+.DS_Store
